@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Raising a Gentleman</title>
+        <link rel="icon" href="img/icon.jpg">
+        <link rel="stylesheet" href="css/north%20(2).css">
+        <script src="js/script.js"></script>
+    </head>
+    <body> 
+         <article>
+             <div id="location">
+                 <h3>You are in the north</h3>
+             </div>
+        </article>
+        <section>
+            <h2>Raising a Gentleman</h2>
+        <article>
+            <div id="status">
+                <h3>Status: Health: 100% | Money: $500 </h3>
+            </div>
+        </article>
+        </section>
+        <br><br>
+        <article>
+            
+            <!-- Paragraph about the intial details of the game when user reaches north completely -->
+            <div id="paraOne">   
+                <p>It took quite a while for you to reach north completely, and you are starting to run low on cash.</p>
+                
+                 <p> During your journey you have made a couple friends. One of them, Alex, is planning on rushing to the mountains to mine some gold to make himself a fortune.</p>
+                
+                 <p> Your other friend, Kevin, sees the demand for inns to house newly arrived travelers. He offers you a chance to partner with him and build an inn together.</p><br>
+                
+                <!-- Here the user has to make choice between his friend Alex and Kevin -->
+                <h5 id="heading-five">- Who do you go with? <br><br></h5>
+                 <h4 id="heading-four"> You can go either with Alex or Kevin.<br><br></h4>
+                   <button id="choose" onclick="ChooseFriend()">Choose a friend -></button>
+                <div id="buttons">
+                  <a id="alex" onclick="AlexNotBuild()">Go with Alex</a><br>
+                <a id="kevin" onclick="KevinNotBuild()">Go with Kevin</a> <br><br><br>
+                     </div>
+                
+                     <!-- Here the user has given another option to make his way to south -->
+                     <button id="option" onclick="SeeOption()">See another option -></button>
+                    <h6 id="heading-six">- You can still go to south.<br></h6>
+                    <a id="go-south" href="south.html">Go to South</a><br><br><br><br><br>
+                
+                         
+                <!-- Directions button if the user want to go back -->
+                 <a id="back" href="third%20page%20(2).html">-- Back to directions --</a> 
+                <br><br>
+
+            </div>
+        </article>
+    </body>
+</html>

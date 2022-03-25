@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Raising a Gentleman</title>
+        <link rel="icon" href="img/icon.jpg">
+        <link rel="stylesheet" href="css/salesman.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body> 
+         <article>
+             <div id="location">
+                 <h1>Salesman</h1>
+             </div>
+        </article>
+        <section>
+            <h2>Raising a Gentleman</h2>
+        <article>
+            <div id="status">
+                <h3 id="update">Status: Health: 100% | Money: $2000</h3> 
+            </div>
+        </article>
+        </section>
+        <br><br>
+        <article>
+            <br>
+              <p id="line-1">After becoming a traveling salesman, you recognizes that maybe this job was meant for you. Your persuasion skills are top-notch and it has enabled you to make a very sizeable amount of money.</p>
+              <p id="line-2">One day, a client shows great interest in your product and asks you to come inside his house.</p>
+            <div id="hide">
+               <img id="salesman-image" src="img/salesman.jpg">
+               <h6>Do you go down into his basement or refuse and walk away?</h6>
+               <button id="go-down" onclick="GoDown()">Go Down</button>
+               <button id="go-out" onclick="Out()">Go Out</button><br><br>
+                <hr id="line"><br>
+                <p id="line-3"></p>
+                <h5 id="line-4"></h5>
+                <img id="knife-img" src="img/knife.png">
+              <p id="line-5"></p><br>
+                <button id="decide-quick" onclick="Quickthought()">Decide Quick -></button><br><br>
+                <button id="fight" onclick="Fight()">Fight</button><br><br>
+               <button id="flee" onclick="Flee()">Flee</button>
+            </div>
+            <h6 id="line-10"></h6>
+            <div id="buttons">
+             <button id="arrest" onclick="Arrest()">Arrest him</button>
+             <button id="up" onclick="RunAway()">Run away</button>
+            </div>
+            
+            <div id="complete">
+             <h6 id="line-6">You yell for help from the Police, and thankfully, some arrive soon after.</h6>
+             <h6 id="line-7">They examine him as a suspected serial killer.</h6>
+             <h6 id="line-8"></h6>   
+            <input type="text" id="salesman-status" placeholder="Write update or upgrade">
+              <button id="clerk-status" onclick="UpdateMoney()">Check Status</button>
+               <button id="salesman-update" onclick="UpdateMoneyTwo()">Check Status</button>
+                 <button id="flee-update" onclick="FleeMoneyUpdate()">Check Status</button>
+            </div>
+                 <h6 id="line-11"></h6>
+             <h6 id="line-9"></h6><br><br>
+        </article>
+    </body>
+</html>

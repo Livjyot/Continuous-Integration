@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Raising a Gentleman</title>
+        <link rel="icon" href="img/icon.jpg">
+        <link rel="stylesheet" href="css/secondpage.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+         <article>
+             <div id="location">
+                 <h3>You are in your house</h3>
+             </div>
+        </article>
+        <section>
+            <div id="header">
+                <center>
+                    <h1>Welcome</h1>
+                </center>   
+            </div>
+            <h2>Raising a Gentleman</h2>
+        <article>
+            <div id="status">
+                <h3>Status: Health: 100% | Money: $0 </h3>
+            </div>
+        </article>
+        </section>
+        <br><br>
+        <!-- This is first paragraph about the introductory details of the game -->
+         <div id="paraOne">
+            <p>You are a twenty year old adult who lives in the outskirts of the city. Having so much financial troubles in your      life, you decided to find a job and make money.<br><br>
+                <button id ="entername" onclick="display()">Click to enter name</button><br>
+             <p id="name"></p> 
+             <center>
+             <button id ="yes" onclick="yes()">Yes</button>
+                  <button id ="no" onclick="no()">No</button>
+                 </center>
+                  <p id="player"></p>
+             
+             <!-- Providing main character's location details -->
+            <h5 id="h5">- You are in your house</h5>
+            
+             <!-- image of the boy's house -->
+              <img id="home" src="img/home.jpg">
+             
+             <!-- Here the user has given button to start the conversation -->
+             <div id="start">
+                <br>
+                    <button id="adventure" onclick="start()">Start the Conversation -></button>   
+              </div>
+             
+               <!-- Here the conversation starts-->
+             <h6 id="line-one">- Presently, you are at your room.</h6>
+             <h6 id="line-two">- I should go and talk to mom. (talking to myself)</h6>
+             
+             <!-- Here the user has given button to go and talk -->
+              <button id="go" onclick="go()">Go and Talk</button>
+               <!-- Here the conversation starts between the boy and his mom -->
+             <h6 id="line-three">- Son, what you have decided to do? (Mom)</h6>
+                 <h6 id="line-four">- Mom, I am going to city to find some job and will return when I earned enough. (Me)</h6>
+                <h6 id="line-five">- Ok son, I'll not force you.</h6>
+             
+               <!-- After talking the boy has to leave the house by clicking below -->
+             <a id="house" href="third%20page.html">Leave home</a>
+        </div>
+        <br><br>
+    </body>
+</html>

@@ -1,0 +1,276 @@
+body {
+ background-color: #181818; 
+}
+
+section{
+    text-align: center;
+    width: 59.9%;
+    border: 3px solid PaleGreen;
+    margin-left: 20em;
+    border-radius: 3px;
+}
+
+#location{
+    width: 60.3%;
+    margin-left: 20em;
+    background-color:PaleGreen;
+    border-radius: 3px;
+    height:2em;
+    line-height: 2em;
+}
+h1{
+   color: black; 
+   font-family: monospace;
+   font-size: 1.5em; 
+   margin-left: 1em;
+}
+
+h2{
+   color:lawngreen; 
+   font-family: cursive;
+   font-size: 2em;
+}
+
+h3{
+   color: black; 
+   font-family: monospace;
+   font-size: 1.5em; 
+   text-align: center;
+}
+
+h4{
+    width:40%;
+    margin-left: 20em;
+    color: lawngreen;
+    font-family: monospace;
+    font-size: 1.4em;
+    animation: 3s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+h5{
+    width:40%;
+    margin-left: 20em;
+    color: white;
+    font-family: monospace;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+
+h6{
+    width:40%;
+    margin-left: 20em;
+    color: gold;
+    font-family: monospace;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+h7 {
+     width:40%;
+    margin-left: 20em;
+    color: lawngreen;
+    font-family: monospace;
+    font-size: 1.4em;
+    visibility: hidden;
+}
+
+#status{
+    text-align: center;
+    width: 100%;
+    background-color: PaleGreen;
+    height:2em;
+    line-height: 2em;
+}
+
+p {
+    width:40%;
+    margin-left: 19em;
+    line-height: 1.4em;
+    color: white;
+    font-family: cursive;
+    font-size: 1.2em;
+    animation: 4s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+#line-2{
+    color: gold;
+    animation: 5s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+#cowboy-image{
+     margin-left:23em;
+     animation: 6s fadeIn;
+     animation-fill-mode: forwards;
+}
+
+#leg-image{
+     margin-left:23em;
+     visibility: hidden;
+}
+
+#line-3{
+     color:white;
+     visibility: hidden;
+     margin-top: -3.2em;
+}
+
+#quit{
+    text-align: center;
+    margin-left: 26em;
+    height:2em;
+    line-height: 0.8em;
+    width: 9em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:6px solid gold;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background: gold;
+     visibility: hidden;
+}
+
+#proceed{
+    text-align: center;
+    margin-left: 29.5em;
+    height:2em;
+    line-height: 0.8em;
+    width: 14.1em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:6px solid white;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background: white;
+    visibility: hidden;
+}
+
+#remain{
+    text-align: center;
+    height:2em;
+    margin-left: 1em;
+    line-height: 0.8em;
+    width: 11em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:6px solid gold;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background: gold;
+    visibility: hidden;
+}
+
+#para{
+    width:70%;
+    margin-left: 25em;
+    margin-top: -20em;
+}
+
+#offer{
+    text-align: center;
+    border-radius:5px;
+    border: 1px solid white;
+    background: #181818;
+    color: white;
+    font-size: 1.2em;
+    font-family: cursive;
+    text-decoration: underline;
+    opacity: 90%;
+    margin-left: 6em;
+    margin-top: -6em;
+}
+
+#line-4{
+    color: gold;
+}
+
+#field{
+    text-align: center;
+    height:2em;
+    margin-left: 28em;
+    line-height: 0.8em;
+    width: 9em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:6px solid gold;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background: gold;
+    visibility: hidden;
+}
+
+#start{
+    text-align: center;
+    height:2em;
+    margin-left: 1em;
+    line-height: 0.8em;
+    width: 10em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:6px solid gold;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background: gold;
+    visibility: hidden;
+}
+
+#line-5{
+    color: white;
+}
+
+#line-14{
+    color: white;
+    margin-left: 23.5em;
+    visibility: hidden;
+}
+
+#enter{
+    margin-left: 26em;
+    color: gold;
+    font-size: 1.1em;
+    padding:0.2em;
+    background: #181818;
+    border: 2px solid white;
+    border-radius:3px;
+    color:white;
+    text-align: center;
+    visibility: hidden;
+}
+
+
+#end {
+      margin-top: 3em;
+      margin-left:23em;
+      color: crimson;
+}
+
+#endd {
+      margin-top: 3em;
+      margin-left:20em;
+      color: white;
+}
+
+
+#line{
+    width:36%;
+    margin-left: 24em;
+    visibility: hidden;
+}

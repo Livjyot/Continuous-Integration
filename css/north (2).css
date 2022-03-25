@@ -1,0 +1,165 @@
+body {
+ background-color: #181818; 
+}
+
+section{
+    text-align: center;
+    width: 59.9%;
+    border: 3px solid orangered;
+    margin-left: 20em;
+    border-radius: 3px;
+}
+
+#location{
+    width: 60.3%;
+    margin-left: 20em;
+    background-color: orangered;
+    border-radius: 3px;
+    height:2em;
+    line-height: 2em;
+}
+h1{
+   color:gainsboro; 
+   font-family: cursive;
+   font-size: 1.5em;
+}
+
+h2{
+   color:gold	; 
+   font-family: cursive;
+   font-size: 2em;
+}
+
+h3{
+    color: white; 
+   font-family: monospace;
+   font-size: 1.5em; 
+   margin-left: 1em;
+}
+
+h7{
+    width:40%;
+    margin-left: 20em;
+    color: gold;
+    font-family: monospace;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+h4{
+    width:40%;
+    margin-left: 21em;
+    color: lawngreen;
+    font-family: monospace;
+    font-size: 1.4em;
+    text-decoration: underline;
+}
+
+h5{
+    width:40%;
+    margin-left: 20em;
+    color: gold;
+    font-family: monospace;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+
+h6{
+    width:40%;
+    margin-left: 21em;
+    color: lawngreen;
+    font-family: monospace;
+    font-size: 1.4em;
+    text-align: left;
+    visibility: hidden;
+}
+
+#status{
+    text-align: center;
+    width: 100%;
+    background-color: orangered;
+    height:2em;
+    line-height: 2em;
+}
+
+p {
+    width:40%;
+    margin-left: 18.5em;
+    line-height: 1.4em;
+    color: white;
+    font-family: cursive;
+    font-size: 1.2em;
+}
+
+#choose{
+    margin-left: 24em;
+    text-align: center;
+    height:2em;
+    line-height: 0.6em;
+    width: 10em;
+    font-size: 1em;
+    font-family: cursive;
+    border:4px solid orangered;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    background: orangered;
+}
+
+
+#option{
+    margin-left: 24em;
+    text-align: center;
+    height:2em;
+    line-height: 0.6em;
+    width: 12em;
+    font-size: 1em;
+    font-family: cursive;
+    border:4px solid orangered;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    background: orangered;
+    visibility: hidden;
+}
+a{
+     margin-left: 29.5em;
+     font-size: 1.2em;
+     color: gold;
+     font-family: cursive;
+     line-height: 2em;
+     visibility: hidden;
+}
+
+#go-south{
+    text-align: center;
+    height:2em;
+    width: 4em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:8px solid lawngreen;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background: lawngreen;
+    margin-right: 1em;
+}
+
+
+#back{
+    margin-left: 24em;
+    text-align: center;
+    height:3em;
+    line-height: 0.6em;
+    width: 16em;
+    font-size: 1.1em;
+    font-family: cursive;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+#alex, #kevin {
+    text-decoration: underline;
+}

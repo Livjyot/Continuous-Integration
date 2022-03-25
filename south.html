@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Raising a Gentleman</title>
+        <link rel="icon" href="img/icon.jpg">
+        <link rel="stylesheet" href="css/south.css">
+         <script>
+            alert("Note: This direction has no jobs as for assignment 2 due to lack of time. But you can have a look!");
+        </script>
+        <script src="js/script.js"></script>
+    </head>
+    <body> 
+         <article>
+             <div id="location">
+                 <h3>You are in the south</h3>
+             </div>
+        </article>
+        <section>
+            <h2>Raising a Gentleman</h2>
+        <article>
+            <div id="status">
+                <h3>Status: Health: 100% | Money: $800 </h3>
+            </div>
+        </article>
+        </section>
+        <br><br>
+        <article>
+            
+            <!-- This is paragraph about the intial details of the game when user goes to south-->
+            <div id="paraOne">   
+                <p>You are going to reach south. Remember that you have to work in order to return the money.</p>
+                
+                 <p>You are travelling for few hours now and have spent $200 dollars on your journey to the south.</p>
+                
+                 <p>Suddenly, you see your childhood friend Peter stepping in the bus. </p><br>
+                
+                 <!-- Choice has been given to user whether he wants to talk to his friend or ignore him -->
+                 <h5 id="heading-five">- Do you want to speak to him?<br><br></h5>
+                     <div id="buttons">
+                  <a id="sayhello" onclick="sayHello()"> Say Hi!</a>
+                     <a id="ignore" onclick="ignore()">Ignore</a> <br><br><br>
+                            </div><hr>
+                
+                  
+                <!-- Here the conversation starts with the user and the Peter -->
+                        <h6 id="line-1">- Hello Peter, how are you?<br></h6>
+                 <h7 id="line-2">- Hey you, what a pleasant surprise.<br></h7>
+                   <h6 id="line-3">- Do you remember me?<br></h6>
+                 <h7 id="line-4">- Offcourse! How can I forget you. We spend such a good time together.<br><br><br></h7>
+                
+                  
+                   <!-- Button if the user wants to talk more with his friend -->
+                   <button id="talk" onclick="talk()">Talk more -></button><br><br>
+                
+                   <!-- Conversation continues -->
+                      <h6 id="line-5">- Yes, we had. It was amazing actually.<br></h6>
+                 <h7 id="line-6">- Do you know how many years we haven't seen each other?<br><br></h7><br>
+                
+                 <!-- Here the user have to make a guess for options given i.e. 7 or 8 years -->
+                 <button id="guess" onclick="guess()">Make a guess</button><br><br><br><br>        
+                   <div id="years">
+                  <a id="seven" onclick="seven()"> 7 years</a>
+                     <a id="eight" onclick="eight()">8 years</a> <br><br><br>
+                   </div><br>
+                   <h7 id="sevenyears" onclick="seven()"><br></h7>
+                 <h6 id="line-7">- Yes, I totally agree with you Peter. It's a long period.<br></h6>
+                 <h7 id="line-8">- What are you doing here?<br></h7>
+                  <h6 id="line-9">- Just looking for a job. Can you help me with that?<br></h6>
+                 <h7 id="line-10">- Yes offcourse. But why you need to do job at 20. We are young, no need for now.<br><br></h7><br>
+                
+                <!-- User explains his friend Peter about why he wants to work by telling his father's loss -->
+               <button id="explain" onclick="explain()">Explain</button><br><br><br><br>        
+                <h7 id="line-11">- Ohh I am sorry for your father's loss.<br><br></h7>
+                  <h6 id="line-12">- No, it's fine. I need job to pay off my father debts. Can you help me to find one.<br></h6>
+                    <h7 id="line-13">- I can help you with money.<br><br></h7>
+                      <h6 id="line-14">- Honestly, I want to make money by doing a job. Thankyou for asking.<br></h6>
+                 <h7 id="line-15">- Please, let me help you.<br><br></h7>
+                  <h6 id="line-16">- No, it's absolutely fine. I know its hard but I will do it.<br></h6>
+                
+                <!-- Here Peter convinces user to help him by paying money -->
+                <button id="convince" onclick="convince()">Convince him to help</button><br><br><br>
+                <h6 id="line-17">- okay fine. But I'll return it as soon as I earned that much amount.<br></h6>
+                 <h7 id="line-18">- Yeah I know you. You will.<br><br></h7>
+                <br><br><br>
+                
+                 <!-- Directions button if the user want to go back -->
+                 <a id="back" href="third%20page%20(2).html">-- Back to directions --</a> 
+                <br><br>
+                
+            </div>
+        </article>
+    </body>
+</html>

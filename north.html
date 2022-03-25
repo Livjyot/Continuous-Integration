@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Raising a Gentleman</title>
+        <link rel="icon" href="img/icon.jpg">
+        <link rel="stylesheet" href="css/north.css">
+        <script>
+            alert("Note: This direction has no jobs as for assignment 2 due to lack of time. But you can have a look!");    
+        </script>
+        <script src="js/script.js"></script>
+    </head>
+    <body> 
+         <article>
+             <div id="location">
+                 <h3>You are almost in the north</h3>
+             </div>
+        </article>
+        <section>
+            <h2>Raising a Gentleman</h2>
+        <article>
+            <div id="status">
+                <h3>Status: Health: 100% | Money: $1000 </h3>
+            </div>
+        </article>
+        </section>
+        <br><br>
+        <article>
+            
+            <!-- This is paragraph about the intial details of the game when user started going north-->
+            <div id="paraOne">   
+                <p> You were initially confused by the amount of people going in the same direction as you. You soon hear that you have unintentionally joined the Gold Rush.</p>
+                
+                 <p> As you talk with fellow travelers and learn the potential risks of mining for gold, your instincts tell you that this journey will not end well.</p>
+                
+                 <p> It's only been a few days so you can still decide to turn back, what do you do? Listen to your gut feelings and walk back? Or take the risks and continue your journey?</p><br>
+                
+                <!-- Here the user has given choice to change his/her decision -->
+                <h5 id="heading-five">- You have not reached north fully. But you can change your decision.<br><br></h5><hr><br>
+                 <h4 id="heading-four">- Where do you want to go now?<br><br></h4>
+                
+                 <!-- Buttons for where to continue the journey bewteen north and south-->
+                 <div id="buttons">
+                  <a id="north" onclick="north()">North</a>
+                <a id="south" onclick="south()">South</a>
+                     <a id="new-north" href="north%20(2).html">North</a>
+                <a id="new-south"  href=south.html>South</a><br> 
+                     <br><br>
+                     <h7 id="ready"></h7><br><br><br><br>
+                     
+                      <!-- The user has to confirm his/her decision in order to move forward i.e yes or no-->
+                     <div id="yesorno">
+                  <a id="yess"  onclick="yess()">Yes</a> 
+                           <a id="noo" onclick="noo()">No</a><br><br>  
+                             <a id="yes-south" onclick="yessouth()">Yes</a>     
+                          <a id="no-south" onclick="nosouth()">No</a> <br><br><br>
+                         
+                          </div>  
+                     
+                     
+                   <!-- Directions button if the user want to go back -->
+                   <a id="back" href="third%20page%20(2).html">-- Back to directions --</a> 
+            </div>
+                
+                
+            </div><br><br>
+        </article>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Raising a Gentleman</title>
+        <link rel="icon" href="img/icon.jpg">
+        <link rel="stylesheet" href="css/clerk.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body> 
+         <article>
+             <div id="location">
+                 <h1>Clerk</h1>
+             </div>
+        </article>
+        <section>
+            <h2>Raising a Gentleman</h2>
+        <article>
+            <div id="status">
+                <h3 id="update">Status: Health: 100% | Money: $1000</h3> 
+                <button id="clerk-status" onclick="ClerkStatus()">Update</button><br>
+            </div>
+        </article>
+        </section>
+        <br><br>
+        <article>
+            <br><br>
+            <h4 id= "heading-four">Good Decision!</h4>
+            <p id="line-1">You are a Clerk now. Remember you have to work hard enough to earn that amount of money.</p>
+            <h4 id= "money"></h4>
+            <h4 id ="end"></h4>
+             <img id="clerk-image" src="img/clerk.jpg">
+            <div id="whole">
+             <div id="start"><br>
+                  <button id="clerk-job" onclick="ClerkJob()">Proceed to start -></button>   
+                  <button id="journey-start"></button>   
+             </div>
+            <h5 id="line-3"></h5>
+            <form>
+                <h6 id="line-4">Think and write a word that can be "raise" or similar to it:
+                    <button id="raise" onclick="AskForRaise()">Hint</button></h6>
+                <input type="text" id="type-ask" name="ask" placeholder="Enter your response"><br><br>
+                 <input type="reset" id="reset" value="Reset" onclick="ResetButton()"><br><br>
+            </form>
+            <button id="submit" onclick="DisplayError()">Submit</button><br><br>
+            <hr id="line"><br>
+            <h5 id="line-5"></h5>
+            <h7 id="options">Before asking for a raise, you have few other options:</h7>
+            <h5 id="line-6"></h5>
+            <h5 id="line-7"></h5>
+            <h5 id="line-8"></h5>
+            <h7 id="line-9"></h7><br><br>
+             <input type="number" id="choose-one" placeholder="Enter 1, 2 or 3">
+                <button id="Option-1" onclick="OptionOne()">Confirm</button>             
+             <p id="line-10"></p>
+             <p id="line-12"></p>
+                <h4 id="zeromoney"></h4>
+             <h5 id="line-11"></h5><br>
+                <button id="go-in" onclick="GoIn()">Go In</button>   
+                <button id="go-out" onclick="GoOut()">Go Out</button><br><br><br>
+            </div>
+        </article>
+    </body>
+</html>

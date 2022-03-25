@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Raising a Gentleman</title>
+        <link rel="icon" href="img/icon.jpg">
+        <link rel="stylesheet" href="css/farmer.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body> 
+         <article>
+             <div id="location">
+                 <h1>Farmer</h1>
+             </div>
+        </article>
+        <section>
+            <h2>Raising a Gentleman</h2>
+        <article>
+            <div id="status">
+                <h3 id="update">Status: Health: 100% | Money: $1500</h3> 
+            </div>
+        </article>
+        </section>
+        <br><br>
+        <article>
+            <br>
+             <p id="line-1">Soon after reaching out to a local landlord, you were offered a small cottage and a few acres of land to farm. While the initial years were rough, you were soon able learn the skills that allow you to make a living.</p>
+            <div id="whole">
+             <p id="line-2">But all these years living alone has been boring. You decide to go find some friends.</p>
+            <h6 id="line-3">Become friends with: <u>Anderson or George</u></h6>
+            <button id="more" onclick="MoreAbout()">More about them -></button>
+            <h6 id="line-4"></h6>
+              <h6 id="line-5"></h6>
+              <h6 id="line-6">- Whom do you want to be friends with?</h6>
+            <div id="buttons">
+                 <input type="text" id="choose-friend" placeholder="Write name">
+                <button id="anderson">Anderson</button>
+                <button id="george">George</button><br><br>
+                <button id="confirm-choosing-friend" onclick="ConfirmChoosingFriend()">Confirm</button><br><br>
+            </div>
+              <hr id="line">
+            <div id="remove-george">
+                <h6 id="friend" ></h6>
+                <img id="george-image" src="img/george.jpg"><br><br>
+                <div id="paraTwo">
+                  <h6 id="line-7"></h6>
+                  <h6 id="line-8"></h6>
+                  <h6 id="line-9"></h6>
+                     <button id="move-george" onclick="MoveToAnderson()">Talk to Anderson</button>
+                </div>
+            </div> 
+              <h6 id="friend" ></h6>
+              <img id="anderson-image" src="img/anderson.jpg"><br><br>
+              <div id="para">
+               <h6 id="line-7"></h6>
+                 <h6 id="line-8"></h6>
+                   <h6 id="line-9"></h6>
+            </div>
+             <div id="trust-buttons">
+                <button id="trust" onclick="TrustAnderson()">Trust</button>
+                <button id="do-not" onclick="DontTrustAnderson()">Do Not Trust</button><br><br><br><br>
+            </div>
+            </div>
+            
+            <div id="hide">
+             <h6 id="line-11"></h6>
+            <p id="line-12"></p>
+             <img id="invest-image" src="img/invest.jfif"><br><br>
+              <button id="invest-money" onclick="InvestMoney()">Invest</button>
+            </div>
+              <h6 id="line-13"></h6>
+            
+            <div id="yes-invest">
+              <form>
+                <h6 id="line-14">Type "yes" or "no": 
+                   <input type="text" id="enter" name="enter" placeholder="Enter your response">
+                </h6>
+                 <input type="reset" id="reset" value="Reset" onclick="()"><br><br>
+            </form>
+            <button id="confirm" onclick="ConfirmInvestment()">Confirm decision</button><br><br>
+            </div>     
+            <h6 id="line-15"></h6>
+             <h6 id="line-16"></h6>
+             <hr id="line-end">
+            <h4 id= "money"></h4>
+            <h4 id= "success-money"></h4>
+            <h4 id="end"></h4>
+             <h4 id="success-end"></h4>
+        </article>
+    </body>
+</html>

@@ -1,0 +1,255 @@
+body {
+ background-color: #181818; 
+}
+
+section{
+    text-align: center;
+    width: 59.9%;
+    border: 3px solid Lavender;
+    margin-left: 20em;
+    border-radius: 3px;
+}
+
+#location{
+    width: 60.3%;
+    margin-left: 20em;
+    background-color: Lavender;
+    border-radius: 3px;
+    height:2em;
+    line-height: 2em;
+}
+h1{
+   color:gainsboro; 
+   font-family: cursive;
+   font-size: 1.5em;
+}
+
+h2{
+   color:Fuchsia; 
+   font-family: cursive;
+   font-size: 2em;
+}
+
+h3{
+    color: black; 
+   font-family: monospace;
+   font-size: 1.5em; 
+   margin-left: 1em;
+}
+
+h7{
+    width:40%;
+    margin-left: 20em;
+    color: gold;
+    font-family: monospace;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+h4{
+    width:40%;
+    margin-left: 20em;
+    color: lawngreen;
+    font-family: monospace;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+h5{
+    width:40%;
+    margin-left: 20em;
+    color: gold;
+    font-family: monospace;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+
+h6{
+    width:40%;
+    margin-left: 20em;
+    color: lawngreen;
+    font-family: monospace;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+#status{
+    text-align: center;
+    width: 100%;
+    background-color: Lavender;
+    height:2em;
+    line-height: 2em;
+}
+
+p {
+    width:40%;
+    margin-left: 18.5em;
+    line-height: 1.4em;
+    color: white;
+    font-family: cursive;
+    font-size: 1.2em;
+}
+
+#choose{
+    margin-left: 24em;
+    text-align: center;
+    height:2em;
+    line-height: 0.6em;
+    width: 10em;
+    font-size: 1em;
+    font-family: cursive;
+    border:4px solid orangered;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    background: orangered;
+}
+
+hr{
+    width:63%;
+    opacity:60%;
+}
+
+#buttons{
+    margin-left:40em;
+
+}
+#sayhello{
+    text-align: center;
+    height:2em;
+    width: 4em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:8px solid lawngreen;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background: lawngreen;
+    margin-right: 1em;
+}
+
+#ignore{
+    text-align: center;
+    height:2em;
+    width: 4em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:8px solid red;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    background: red;
+    
+}
+
+#talk{
+    margin-left: 24em;
+    text-align: center;
+    height:2em;
+    line-height: 0.6em;
+    width: 8em;
+    font-size: 1em;
+    font-family: cursive;
+    border:4px solid Crimson;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    background: Crimson;
+}
+
+#guess{
+    margin-left: 24em;
+    text-align: center;
+    height:2em;
+    line-height: 0.4em;
+    width: 9em;
+    font-size: 1em;
+    font-family: cursive;
+    border:4px solid Crimson;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    background: Crimson;
+}
+
+#explain{
+    margin-left: 24em;
+    text-align: center;
+    height:2em;
+    line-height: 0.4em;
+    width: 9em;
+    font-size: 1em;
+    font-family: cursive;
+    border:4px solid Crimson;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    background: Crimson;
+}
+
+#convince{
+    margin-left: 24em;
+    text-align: center;
+    height:2em;
+    line-height: 0.2em;
+    width: 12em;
+    font-size: 1em;
+    font-family: cursive;
+    border:4px solid Crimson;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    background: Crimson;
+}
+#years{
+    margin-left:35em;
+
+}
+#seven{
+    text-align: center;
+    height:2em;
+    width: 4em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:8px solid lawngreen;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background: lawngreen;
+    margin-right: 1em;
+}
+
+#eight{
+    text-align: center;
+    height:2em;
+    width: 4em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:8px solid lawngreen;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background: lawngreen;
+    
+}
+#line-11,#line-12,#line-13,#line-14,#line-15,#line-16, #convince,#line-17,#line-18{
+     visibility: hidden;
+}
+
+#line-1, #line-2,#line-3, #line-4, #talk, #guess, #line-5, #line-6, #years , #line-7, #line-8, #line-9, #line-10, #explain{
+    visibility: hidden;
+}
+
+#back{
+    margin-left: 22em;
+    text-align: center;
+    height:3em;
+    line-height: 0.6em;
+    width: 16em;
+    font-size: 1.1em;
+    font-family: cursive;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}

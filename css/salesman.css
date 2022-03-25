@@ -1,0 +1,392 @@
+body {
+ background-color: #181818; 
+}
+
+section{
+    text-align: center;
+    width: 59.9%;
+    border: 3px solid #FFE4C4;
+    margin-left: 20em;
+    border-radius: 3px;
+}
+
+#location{
+    width: 60.3%;
+    margin-left: 20em;
+    background-color: #FFE4C4;
+    border-radius: 3px;
+    height:2em;
+    line-height: 2em;
+}
+h1{
+   color: black; 
+   font-family: monospace;
+   font-size: 1.5em; 
+   margin-left: 1em;
+}
+
+h2{
+   color:Crimson; 
+   font-family: cursive;
+   font-size: 2em;
+}
+
+h3{
+   color: black; 
+   font-family: monospace;
+   font-size: 1.5em; 
+   text-align: center;
+}
+
+h4{
+    width:40%;
+    margin-left: 20em;
+    color: lawngreen;
+    font-family: monospace;
+    font-size: 1.4em;
+    animation: 3s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+h5{
+    width:40%;
+    margin-left: 20em;
+    color: white;
+    font-family: monospace;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+
+h6{
+    width:40%;
+    margin-left: 20em;
+    color: gold;
+    font-family: monospace;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+h7 {
+     width:40%;
+    margin-left: 20em;
+    color: lawngreen;
+    font-family: monospace;
+    font-size: 1.4em;
+  
+}
+
+#status{
+    text-align: center;
+    width: 100%;
+    background-color: #FFE4C4;
+    height:2em;
+    line-height: 2em;
+}
+
+p {
+    width:40%;
+    margin-left: 19em;
+    line-height: 1.4em;
+    color: white;
+    font-family: cursive;
+    font-size: 1.2em;
+    animation: 6s fadeIn;
+    animation-fill-mode: backwards;
+    
+}
+#clerk-status{
+    text-align: center;
+    height:2.4em;
+    line-height: 0.5em;
+    width: 10em;
+    font-size: 1.1em;
+    font-family: monospace;
+    border:6px solid lawngreen;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background: lawngreen;
+    font-weight: bold;
+    margin-left: 1em;
+    visibility: hidden;
+  
+}
+
+#salesman-update{
+     text-align: center;
+    height:2.4em;
+    line-height: 0.5em;
+    width: 10em;
+    font-size: 1.1em;
+    font-family: monospace;
+    border:6px solid lawngreen;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background: lawngreen;
+    font-weight: bold;
+    margin-left: 1em;
+    visibility: hidden;
+}
+
+
+#flee-update{
+     text-align: center;
+    height:2.4em;
+    line-height: 0.5em;
+    width: 10em;
+    font-size: 1.1em;
+    font-family: monospace;
+    border:6px solid lawngreen;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background: lawngreen;
+    font-weight: bold;
+    margin-left: 1em;
+    visibility: hidden;
+}
+
+@keyframes blink {
+    0% {color: white}
+    25% {color: crimson;}
+    50% {color: white}
+    75% {color: crimson;}
+    100% {color: white;}
+}
+
+#salesman-image{
+     margin-left:23em;
+     animation: 6s fadeIn;
+     animation-fill-mode: backwards;
+}
+
+#go-down{
+    text-align: center;
+    margin-left:34em;
+    height:2em;
+    line-height: 0.8em;
+    width: 6em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:6px solid lawngreen;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background: lawngreen;
+}
+
+#go-out{
+    text-align: center;
+    margin-left:1em;
+    height:2em;
+    line-height: 0.8em;
+    width: 6em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:6px solid red;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    background: red;
+}
+
+
+hr{
+    width:63%;
+    opacity:60%;
+    margin-left: 19em;
+    visibility: hidden;
+}
+
+#line-4{
+     margin-left: 20.4em;
+     margin-top: 3em;
+     animation-name: blink;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    0% {color: red}
+    10% {color: white;}
+    20% {color: red}
+    30% {color: white;}
+    40% {color: red}
+    50% {color: white;}
+    60% {color: red}
+    70% {color: white;}
+    80% {color: red}
+    90% {color: white;}
+    100% {color: red}
+}
+
+#decide-quick{
+    text-align: center;
+    margin-left:23.5em;
+    height:2em;
+    line-height: 0.8em;
+    width: 12em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:6px solid red;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    background: red;
+    animation: 10s fadeIn;
+    animation-fill-mode: forwards;
+    animation-name: blink;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+    visibility: hidden;
+}
+#fight {
+    text-align: center;
+    margin-left:38.5em;
+    height:2em;
+    line-height: 0.8em;
+    width: 6em;
+    font-size: 1.2em;
+    font-family: monospace;
+    font-weight: bold;
+    border:6px solid gold;
+    border-radius: 5px;
+    color: red;
+    text-decoration: none;
+    background: gold;
+    animation: 10s fadeIn;
+    animation-fill-mode: forwards;
+    animation-name: blink;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    visibility: hidden;
+}
+#flee {
+    text-align: center;
+    margin-left:38.5em;
+    height:2em;
+    line-height: 0.8em;
+    width: 6em;
+    font-size: 1.2em;
+    font-family: monospace;
+    font-weight: bold;
+    border:6px solid gold;
+    border-radius: 5px;
+    color: red;
+    text-decoration: none;
+    background: gold;
+    animation: 10s fadeIn;
+    animation-fill-mode: forwards;
+    animation-name: blink;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    visibility: hidden;
+}
+
+#headingFive{
+    visibility: hidden;
+    color: gold;
+}
+
+#arrest{
+    text-align: center;
+    margin-left:0.5em;
+    margin-right: 1em;
+    height:1.6em;
+    line-height: 0.7em;
+    width: 8em;
+    font-size: 1.4em;
+    font-family: monospace;
+    border:6px solid red;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    background: red;
+    visibility: hidden;
+}
+
+#buttons {
+     margin-left:22.5em;
+}
+#up{
+    text-align: center;
+    margin-left:0.5em;
+    height:1.6em;
+    line-height: 0.8em;
+    width: 8em;
+    font-size: 1.4em;
+    font-family: monospace;
+    border:6px solid lawngreen;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background: lawngreen;
+    visibility: hidden;
+}
+
+#line-6{
+    visibility: hidden;
+}
+
+#line-7{
+    visibility: hidden;
+    color: red;
+    animation: 10s fadeIn;
+    animation-fill-mode: forwards;
+    animation-name: blink;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#line-8{
+    color: white;
+}
+
+#line-10{
+    color: red;
+}
+
+#line-9{
+    color: lawngreen;
+    margin-left: 20.5em;
+    margin-top: 4em;
+}
+
+
+#line-11 {
+    color: gold;
+    margin-top: 3em;
+    margin-left: 24.5em;
+    font-size:1.6em;
+}
+
+input[type=text]
+{
+    font-size: 1.2em;
+    width:22em;
+    padding:0.2em;
+    margin-left: 19.5em;
+    background: #181818;
+    border: 2px solid lawngreen;
+    border-radius:3px;
+    color:white;
+    text-align: center;
+    visibility: hidden;
+}
+
+#knife-img {
+    margin-left:23em;
+    visibility: hidden;
+}

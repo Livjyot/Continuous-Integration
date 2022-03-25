@@ -1,0 +1,335 @@
+body {
+ background-color: #181818; 
+}
+
+section{
+    text-align: center;
+    width: 59.9%;
+    border: 3px solid #FFE4C4;
+    margin-left: 20em;
+    border-radius: 3px;
+}
+
+#location{
+    width: 60.3%;
+    margin-left: 20em;
+    background-color: #FFE4C4;
+    border-radius: 3px;
+    height:2em;
+    line-height: 2em;
+}
+h1{
+   color: black; 
+   font-family: monospace;
+   font-size: 1.5em; 
+   margin-left: 1em;
+}
+
+h2{
+   color:Crimson; 
+   font-family: cursive;
+   font-size: 2em;
+}
+
+h3{
+   color: black; 
+   font-family: monospace;
+   font-size: 1.5em; 
+   text-align: center;
+}
+
+h4{
+    width:40%;
+    margin-left: 20em;
+    color: lawngreen;
+    font-family: monospace;
+    font-size: 1.4em;
+    animation: 3s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+h5{
+    width:40%;
+    margin-left: 20em;
+    color: white;
+    font-family: monospace;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+
+h6{
+    width:40%;
+    margin-left: 20em;
+    color: gold;
+    font-family: monospace;
+    font-size: 1.4em;
+    text-align: left;
+    visibility: hidden;
+}
+
+h7 {
+     width:40%;
+    margin-left: 20em;
+    color: lawngreen;
+    font-family: monospace;
+    font-size: 1.4em;
+    visibility: hidden;
+}
+
+#status{
+    text-align: center;
+    width: 100%;
+    background-color: #FFE4C4;
+    height:2em;
+    line-height: 2em;
+}
+
+p {
+    width:40%;
+    margin-left: 19em;
+    line-height: 1.4em;
+    color: white;
+    font-family: cursive;
+    font-size: 1.2em;
+    animation: 6s fadeIn;
+    animation-fill-mode: backwards;
+    
+}
+
+#clerk-status{
+    text-align: center;
+    height:2.6em;
+    line-height: 0.5em;
+    width: 9em;
+    font-size: 1.1em;
+    font-family: monospace;
+    border:6px solid crimson;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    background: crimson;
+    font-weight: bold;
+    margin-left: 1em;
+    visibility: hidden;
+  
+}
+
+#clerk-status {
+    animation-name: blink;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    0% {color: white}
+    25% {color: crimson;}
+    50% {color: white}
+    75% {color: crimson;}
+    100% {color: white;}
+}
+
+#clerk-image{
+     margin-left:23em;
+     animation: 6s fadeIn;
+     animation-fill-mode: backwards;
+}
+
+#clerk-job, #journey-start{
+    text-align: center;
+    border: 2px solid #181818;
+    background: #181818;
+    color: limegreen;
+    font-size: 1.5em;
+    font-family: cursive;
+    text-decoration: underline;
+    animation: 6s fadeIn;
+    animation-fill-mode: backwards;
+}
+#start{
+    margin-left:22.5em;
+    
+}
+
+input[type=text]{
+    font-size: 1.1em;
+    padding:0.2em;
+    margin-left:27.5em;
+    background: #181818;
+    border: 2px solid white;
+    border-radius:3px;
+    color:white;
+    text-align: center;
+}
+
+input[type=reset]{
+    text-align: center;
+    margin-left:31.1em;
+    height:2em;
+    line-height: 0.8em;
+    width: 14.3em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:6px solid crimson;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    background: crimson;
+    visibility: hidden;
+}
+#raise{
+    text-decoration: underline;
+    background: #181818;
+    border: #181818;
+    color: white;
+    font-style: oblique;
+}
+#submit{
+    text-align: center;
+    margin-left:31.1em;
+    height:2em;
+    line-height: 0.8em;
+    width: 14.3em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:6px solid gold;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background: gold;
+    visibility: hidden;
+}
+
+hr{
+    width:63%;
+    opacity:60%;
+    margin-left: 19em;
+    visibility: hidden;
+}
+#options{
+    visibility: hidden;
+}
+#type-ask{
+    visibility: hidden;
+}
+
+#choose-one{
+    font-size: 1em;
+    padding:0.2em;
+    margin-left:23.5em;
+    background: #181818;
+    border: 2px solid white;
+    border-radius:3px;
+    color:white;
+    text-align: center;
+    visibility: hidden;
+}
+#Option-1 {
+    text-align: center;
+    margin-left: 1em;
+    height:2em;
+    line-height: 0.8em;
+    width: 6em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:6px solid lawngreen;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background: lawngreen;
+    visibility: hidden;
+}
+
+#Option-2,#Option-3 {
+    text-align: center;
+    margin-left: 1em;
+    height:2em;
+    line-height: 0.8em;
+    width: 6em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:6px solid lawngreen;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background: lawngreen;
+    visibility: hidden;
+}
+#line-10{
+     margin-left: 32em;
+}
+
+#line-12{
+     margin-left: 32em;
+     color: lawngreen
+}
+
+#line-11
+{
+     margin-left: 36.5em;
+     margin-top: 3em;
+     animation-name: blink;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+}
+
+#end {
+      margin-top: 5em;
+      margin-left:20em;
+}
+
+#go-in{
+    text-align: center;
+    margin-left:40em;
+    height:2em;
+    line-height: 0.8em;
+    width: 6em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:6px solid gold;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background: gold;
+    visibility: hidden;
+}
+
+#go-out{
+    text-align: center;
+    margin-left:1em;
+    height:2em;
+    line-height: 0.8em;
+    width: 6em;
+    font-size: 1.2em;
+    font-family: monospace;
+    border:6px solid crimson;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    background: crimson;
+    visibility: hidden;
+}
+
+#money {
+    margin-top: 3em;
+    margin-left: 24em;
+    font-size: 1.5em;
+    color: gold;
+}
+
+#zeromoney{
+    margin-top: 2em;
+    margin-left: 42em;
+    font-size: 1.5em;
+    color: gold;
+}
