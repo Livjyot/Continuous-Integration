@@ -1,6 +1,7 @@
 ## Introduction
  
-Raising a gentleman is a short adventure game with a specific set of rules to follow. The main character of the game wants to earn money for his family due to the sudden demise of his father in a road accident. As he lives in a small town that offers very little work, so he decides to go to bigger cities to clear off his father’s debts. Since the money was taken from some really bad people. Now the family is being forced to return it as soon as possible if they don't want to get in trouble.
+## Raising a gentleman 
+is a short adventure game with a specific set of rules to follow. The main character of the game wants to earn money for his family due to the sudden demise of his father in a road accident. As he lives in a small town that offers very little work, so he decides to go to bigger cities to clear off his father’s debts. Since the money was taken from some really bad people. Now the family is being forced to return it as soon as possible if they don't want to get in trouble.
 
 The User is the main character of the game i.e. The Boy. The Game consists of decison-based gameplay, your decisions define the best end of the story, easy controls and short play through time.
 
