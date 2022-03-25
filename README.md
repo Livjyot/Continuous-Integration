@@ -5,10 +5,10 @@ Raising a gentleman is a short adventure game with a specific set of rules to fo
 The User is the main character of the game i.e. The Boy. 
 
 The Game is rich in features:
-**Decison-based gameplay
-**Your decisions define the best end of the story
-**Easy controls 
-**Short play through time.
+* Decison-based gameplay
+* Your decisions define the best end of the story
+* Easy controls 
+* Short play through time.
 
 
 ## Installation
